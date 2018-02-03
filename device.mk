@@ -410,15 +410,7 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-     android.hardware.vibrator@1.0-impl \
-     android.hardware.vibrator@1.0-service
-
-# VNDK
-PRODUCT_PACKAGES += vndk-sp
-
-# Weaver
-PRODUCT_PACKAGES += \
-    android.hardware.weaver@1.0
+     android.hardware.vibrator@1.1-service.mata
 
 # VNDK
 PRODUCT_PACKAGES += vndk-sp
