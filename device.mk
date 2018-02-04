@@ -148,10 +148,11 @@ PRODUCT_PACKAGES += \
     copybit.msm8998 \
     gralloc.msm8998 \
     hwcomposer.msm8998 \
-    memtrack.msm8998 \
     libdisplayconfig \
     liboverlay \
-    libtinyxml
+    libqdMetaData.system \
+    libtinyxml \
+    memtrack.msm8998
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -207,12 +208,12 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.mata \
-    init.mata.modprobe.rc \
     init.mata.ramdump.rc \
     init.mata.rc \
     init.mata.usb.rc \
     init.qcom.devstart.sh \
     init.qcom.early_boot.sh \
+    init.qcom.power.sh \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
@@ -377,6 +378,9 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Tethering
