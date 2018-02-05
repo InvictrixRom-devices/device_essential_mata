@@ -376,10 +376,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
-# Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
-
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
@@ -413,8 +409,15 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
+     android.hardware.vibrator@1.0-impl \
+     android.hardware.vibrator@1.0-service
+
+# VNDK
+PRODUCT_PACKAGES += vndk-sp
+
+# Weaver
+PRODUCT_PACKAGES += \
+    android.hardware.weaver@1.0
 
 # VNDK
 PRODUCT_PACKAGES += vndk-sp
