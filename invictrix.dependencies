@@ -6,9 +6,9 @@
     "remote": "github"
   },
   {
-    "repository": "InvictrixROM-Devices/vendor_essential",
+    "repository": "TheMuppets/proprietary_vendor_essential",
     "target_path": "vendor/essential",
-    "branch": "o-mr1",
+    "branch": "lineage-15.1",
     "remote": "github"
   }
 ]
