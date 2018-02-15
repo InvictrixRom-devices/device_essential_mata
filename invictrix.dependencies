@@ -10,5 +10,11 @@
     "target_path": "vendor/essential",
     "branch": "lineage-15.1",
     "remote": "github"
+  },
+  {
+    "repository": "frap129/android_vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch": "cr-6.1",
+    "remote": "github"
   }
 ]
