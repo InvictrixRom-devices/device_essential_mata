@@ -2,7 +2,7 @@
   {
     "repository": "USA-RedDragon/Werewolf-mata",
     "target_path": "kernel/essential/msm8998",
-    "branch": "o-mr1",
+    "branch": "o-mr1-temp",
     "remote": "github"
   },
   {
