@@ -12,9 +12,9 @@
     "remote": "github"
   },
   {
-    "repository": "frap129/android_vendor_pixelgapps",
-    "target_path": "vendor/pixelgapps",
-    "branch": "cr-6.1",
+    "repository": "xlxfoxxlx/kronicgapps",
+    "target_path": "vendor/kronicgapps",
+    "branch": "oreo-mr1",
     "remote": "github"
   }
 ]
