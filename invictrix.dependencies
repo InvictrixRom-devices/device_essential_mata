@@ -16,5 +16,11 @@
     "target_path": "vendor/kronicgapps",
     "branch": "oreo-mr1",
     "remote": "github"
+  },
+  {
+    "repository": "USA-RedDragon/prebuilts_clang_host_linux-x86_7.0-DragonTC",
+    "target_path": "prebuilts/clang/host/linux-x86/7.0-DragonTC",
+    "branch": "master",
+    "remote": "github"
   }
 ]
