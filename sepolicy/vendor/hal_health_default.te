@@ -1,0 +1,2 @@
+allow hal_health_default kmsg_device:chr_file write;
+allow hal_health_default rootfs:file read;

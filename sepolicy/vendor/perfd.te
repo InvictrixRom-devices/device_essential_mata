@@ -25,6 +25,9 @@ allow perfd perfd_socket:sock_file write;
 
 allow perfd device_latency:chr_file w_file_perms;
 
+allow perfd freq_prop:file read;
+allow perfd sysfs_msm_perf:dir search;
+
 # wahoo sysfs_msm_subsys is sysfs_devfreq + sysfs_kgsl
 r_dir_file(perfd, sysfs_devfreq)
 allow perfd sysfs_devfreq:file w_file_perms;
