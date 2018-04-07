@@ -20,4 +20,5 @@
 <resources>
     <!-- Height of the status bar -->
     <dimen name="status_bar_height">136px</dimen>
+    <dimen name="letterbox_height">136px</dimen>
 </resources>
