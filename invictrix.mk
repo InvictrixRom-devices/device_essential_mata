@@ -4,6 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product, vendor/invictrix/config/common.mk)
 $(call inherit-product, vendor/invictrix/config/gsm.mk)
+$(call inherit-product, vendor/invictrix/config/caf_fw.mk)
 
 # Vendor blobs
 $(call inherit-product, vendor/essential/mata/mata-vendor.mk)
