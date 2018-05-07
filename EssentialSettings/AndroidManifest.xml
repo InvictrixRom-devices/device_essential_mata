@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.invictrix.settings.device"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/essential_settings_title"
+        android:icon="@mipmap/ic_gear"
+        android:persistent="true">
+
+        <!--<provider
+            android:name=".EssentialSettingsSearchIndexablesProvider"
+            android:authorities="com.invictrix.settings.device"
+            android:multiprocess="false"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+            </intent-filter>
+        </provider>-->
+
+        <receiver android:name="com.invictrix.settings.device.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".DeviceSettings"
+            android:label="@string/essential_settings_title"
+            android:theme="@style/EssentialSettings">
+        </activity>
+
+        <activity
+            android:name=".NotchSettingsActivity"
+            android:label="@string/notch_settings_title"
+            android:theme="@style/EssentialSettings">
+        </activity>
+
+    </application>
+
+</manifest>
