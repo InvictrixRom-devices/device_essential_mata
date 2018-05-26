@@ -18,6 +18,8 @@ else
 TARGET_RECOVERY_FSTAB := device/essential/mata/rootdir/etc/fstab.mata
 endif
 
+INVICTRIX_MAINTAINER := USA-RedDragon
+
 # Device identifiers
 PRODUCT_DEVICE := mata
 PRODUCT_NAME := invictrix_mata
