@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "InvictrixROM-Devices/kernel_essential_msm8998",
+    "target_path": "kernel/essential/msm8998",
+    "branch": "inv-8.1",
+    "remote": "github"
+  },
+  {
+    "repository": "InvictrixROM-Devices/proprietary_vendor_essential",
+    "target_path": "vendor/essential",
+    "branch": "inv-8.1",
+    "remote": "github"
+  },
+  {
+    "repository": "DirtyUnicorns/android_vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch": "o8x",
+    "remote": "github"
+  },
+  {
+    "repository": "USA-RedDragon/prebuilts_clang_host_linux-x86_7.0-DragonTC",
+    "target_path": "prebuilts/clang/host/linux-x86/7.0-DragonTC",
+    "branch": "master",
+    "remote": "github"
+  }
+]
